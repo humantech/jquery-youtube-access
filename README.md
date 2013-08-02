@@ -1,19 +1,22 @@
 jquery-youtube-access
 =====================
 
-Verify if the user has access to youtube.
+What it does? Verifies if the user has access to Youtube.
 
 Important?
 ==========
 
-Yes, this could be used to determinate what kind of player will be displayed for example.
+Many times yes. This could be used to:
+
+- Determinate what kind of player will be displayed (fallbacks) in case Youtube is not accessible;
+- If the client side proxy is blocking the user's Youtube access;
 
 Usage
 =====
 
-At the first call, the plugin will test the access and store the result, at the second call will be just memory reference, so don't worry about network.
+At the first call, the plugin will test Youtube access and store the result. Later calls (without refresh) will bring the same result.
 
-```
+```javascript
 $(document).ready(function(){
 
   $.hasyt();
@@ -21,7 +24,7 @@ $(document).ready(function(){
 	$('a').click(function(){
 
 		if($.hasyt()){
-			// has access
+			// has youtube access, yay!
 		}
 
 	});
