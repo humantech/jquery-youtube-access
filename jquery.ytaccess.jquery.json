@@ -1,5 +1,5 @@
 {
-    "name": "jquery-ytaccess",
+    "name": "jquery.ytaccess",
     "title": "jQuery Youtube Access",
     "description": "jQuery plugin that verifies if the user has access to Youtube.",
     "keywords": [
