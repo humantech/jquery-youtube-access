@@ -1,0 +1,30 @@
+{
+    "name": "jquery-ytaccess",
+    "title": "jQuery Youtube Access",
+    "description": "jQuery plugin that verifies if the user has access to Youtube.",
+    "keywords": [
+        "youtube",
+        "access",
+        "proxy",
+        "blocked"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Guilherme Henrique de Oliveira",
+        "url": "http://ghophp.github.io/"
+    },
+    "maintainers": [],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/ghophp/jquery-youtube-access/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/ghophp/jquery-youtube-access/issues",
+    "homepage": "https://github.com/ghophp/jquery-youtube-access",
+    "docs": "https://github.com/ghophp/jquery-youtube-access",
+    "download": "https://github.com/ghophp/jquery-youtube-access",
+    "dependencies": {
+        "jquery": ">=1"
+    }
+}
