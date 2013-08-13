@@ -7,13 +7,13 @@
 
 		<script type="text/javascript">
 
-			$(document).ready(function(){
+			$.hasyt(function(){
+				$(document).ready(function(){
 
-				$.hasyt();
-				
-				$('body').append('<p>Document loaded...</p>');
-				$('body').append('<p>You '+($.hasyt() ? 'can' : 'cannot')+' access Youtube...</p>');
-				
+					$('body').append('<p>Document loaded...</p>');
+					$('body').append('<p>You '+($.hasyt() ? 'can' : 'cannot')+' access Youtube...</p>');
+					
+				});
 			});
 
 		</script>
