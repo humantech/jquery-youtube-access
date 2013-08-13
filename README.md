@@ -17,17 +17,19 @@ Usage
 At the first call, the plugin will test Youtube access and store the result. Later calls (without refresh) will bring the same result.
 
 ```javascript
-$(document).ready(function(){
 
-  $.hasyt();
+$.hasyt(function(){
 	
-	$('a').click(function(){
+	$(document).ready(function(){
+		
+		$('a').click(function(){
 
-		if($.hasyt()){
-			// has youtube access, yay!
-		}
+			if($.hasyt()){
+				// has youtube access, yay!
+			}
 
+		});
+		
 	});
-	
 });
 ```
